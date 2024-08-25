@@ -1,6 +1,7 @@
 document.getElementById('start').addEventListener('click', () => {
     // Configure Jitsi Meet API
-    const domain = 'localhost';  // Your local server's domain
+    const domain = 'meet.jit.si';  // Your local server's domain
+    
     const options = {
         roomName: 'JitsiScreenSharingRoom',  // Room name
         parentNode: document.getElementById('jitsi-container'),
